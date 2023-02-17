@@ -1,0 +1,17 @@
+[
+    {
+        "id": "example",
+        "execute-command": "/home/admin/projects/example/redeploy.sh",
+        "response-message": "正在执行 example 的部署脚本",
+        "trigger-rule": {
+            "match": {
+                "type": "value",
+                "value": "1234567",
+                "parameter": {
+                    "source": "url",
+                    "name": "token"
+                }
+            }
+        }
+    }
+]
